@@ -1,8 +1,3 @@
-index.html
-styles.css
-app.js
-README.md
-
 <!--
 **Sincustodia/sincustodia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
