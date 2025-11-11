@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Entidad Especializada | Venta Directa y Subasta Sin Custodia</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Entidad Especializada</h1>
+      <p class="tag">Venta directa y subasta de vehículos sin custodia</p>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#subastas">Subastas</a>
+        <a href="#vendedores">Para Vendedores</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="intro" class="hero">
+      <h2>Venta y subasta profesional sin custodia</h2>
+      <p>Entidad especializada en la gestión, comercialización y subasta de vehículos de forma totalmente digital. Sin almacén, sin gastos de custodia y con total transparencia.</p>
+      <a href="#publicar" class="btn">Publicar vehículo</a>
+      <a href="#subastas" class="btn secondary">Ver subastas activas</a>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios profesionales</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Venta directa</h3>
+          <p>Publicamos el vehículo directamente con datos y contacto del propietario. El comprador contacta sin intermediarios físicos.</p>
+        </div>
+        <div class="card">
+          <h3>Subasta online</h3>
+          <p>Organizamos subastas con pujas verificadas y contrato entre particulares o empresas, todo en entorno digital seguro.</p>
+        </div>
+        <div class="card">
+          <h3>Gestión documental</h3>
+          <p>Ayuda en contratos, informes de vehículo y trámites de transferencia ante la DGT.</p>
+        </div>
+        <div class="card">
+          <h3>Auditoría de vehículos</h3>
+          <p>Verificación básica de documentación, cargas y estado general (sin custodia ni transporte).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="subastas">
+      <h2>Subastas activas</h2>
+      <div id="cards"></div>
+      <p class="note">Las subastas son totalmente online. El vehículo permanece con su propietario hasta la adjudicación final.</p>
+    </section>
+
+    <section id="publicar" class="form-section">
+      <h2>Publicar un vehículo (gratis)</h2>
+      <form id="listingForm">
+        <div class="row">
+          <input id="marca" placeholder="Marca" required/>
+          <input id="modelo" placeholder="Modelo" required/>
+        </div>
+        <div class="row">
+          <input id="ano" placeholder="Año" required/>
+          <input id="precio" placeholder="Precio base (€)" required/>
+        </div>
+        <div class="row">
+          <input id="localidad" placeholder="Localidad" required/>
+          <input id="telefono" placeholder="Teléfono" required/>
+        </div>
+        <textarea id="descripcion" placeholder="Descripción breve"></textarea>
+        <button type="submit">Publicar vehículo</button>
+      </form>
+    </section>
+
+    <section id="vendedores">
+      <h2>Para vendedores</h2>
+      <p>Ayudamos a particulares, empresas y administradores concursales a vender o subastar sus vehículos sin asumir costes de custodia ni transporte.</p>
+      <ul>
+        <li>Gestión completa de venta directa o subasta.</li>
+        <li>Verificación documental y acompañamiento durante todo el proceso.</li>
+        <li>Promoción en canales nacionales e internacionales.</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="contact">
+      <h2>Contacto</h2>
+      <p><strong>Email:</strong> info@entidadespecializada.es</p>
+      <p><strong>Tel/WhatsApp:</strong> +34 600 000 000</p>
+    </section>
+
+    <section id="legal">
+      <h2>Aviso legal</h2>
+      <p>Entidad especializada en la gestión comercial y subasta sin custodia. Los vehículos permanecen bajo posesión del titular hasta la firma del contrato o adjudicación.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Entidad Especializada — Venta directa y subasta sin custodia | Actualizado: <span id="fechaFooter"></span></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
